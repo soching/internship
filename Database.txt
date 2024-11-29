@@ -1,0 +1,50 @@
+
+STEPS COMMENT LINE IN DATABASE
+
+1. Create table
+	create table table_name (column1, column2, column3);
+
+	example: create table products(
+			prduct_id int identity(1,1) primary key,
+			product_name nvarchar(50),
+			product_price int
+		);
+
+2. Insert data to table
+	insert into table_name(column_name,column_name.....) values
+		(your_data,your_data),
+		(your_data,your_data)
+	
+	example: insert into products(product_name, product_price) values
+			('Apple',10),
+			('Banana'20)
+
+3. Update data in table
+	UPDATE table_name SET column_name ='New_Data' WHERE id_OfData=1,2,3...
+	
+	example: UPDATE products SET product_name='Orange' WHERE product_id =1
+
+4. Delete data in table
+	DELETE FROM table_name WHERE your_columnName(base On your column) ='' or...
+	example: DELETE FROM products WHERE product_name='Apple'
+
+5. ADD more Column in table
+	ALTER TABLE table_name ADD column_name varchar(50)
+
+	example: ALTER TABLE products ADD quantity int
+
+6. DELETE column name
+	ALTER TABLE table_name DROP COLUMN column_name
+	
+	ALTER TABLE products DROM COLOMN quantity
+7. DELETE table
+	DROP TABLE table_name
+	example: DROP TABLE product
+
+8. Checking Table
+	SELECT * FROM table_name
+	example: SELECT * FROM product
+
+9. Checking base on Column name
+	SECLECT your_columnName FROM table_name
+	example: SECLECT product_name FROM product

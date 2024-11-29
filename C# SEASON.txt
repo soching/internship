@@ -1,0 +1,24 @@
+C# with ASP.NET
+
++ C# Basic
+
+1. Var and Datatype
+2. array
+2. Loop (while, for, foreach, recusive function)
+3. Condition(if, switch, ternary)
+4. Encapthtalion(OOP): Class, member class, property, publice, private, protected, interitance class, static class
+5. DB and Connection
+
+6. ADODB(Data Set)
+
+7. C# with ASP.Net
+
+result
+- create website
+- create web application
+- create web API
+
+
+const ត្រូវ​បាន​ប្រើ​នៅ​ពេល​ដែល​អ្នក​មាន​តម្លៃ​ថេរ ហើយ​មិន​ផ្លាស់​ប្តូរ​ពេញ​មួយ​ការ​ប្រតិបត្តិ​របស់​កម្មវិធី។
+ត្រូវបានប្រើនៅពេលអ្នកចង់ឱ្យ compiler សន្និដ្ឋានអំពីប្រភេទនៃអថេរនៅពេលចងក្រង។
+	

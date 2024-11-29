@@ -1,0 +1,27 @@
+Here is my agenda for today 
+the first is: Overview of Internship
+the second is: Internship project
+the third is: Reflection 
+the four is: Personal project 
+the last is: conclusion
+
+So now move to the first point is Overview of Internship my company name is Borey Golden Park Company, and this company created on 2020, in the previous the comapny stayed at 
+- Mission: To be one of the top property developers in Cambodia fulfill of sustainability green community.
+- Core Value: Building high-quality, safe, and eco-friendly homes with a talented team, committed to exceeding customer expectations.
+- Type of business: real states 
+ 
+
+
+The first of all I would like to good afternoon to teachers, tutor and everyone here, I'm Soching, so today I will presentation about my finished
+from my an internship , so now move to the first outline is Overview of Internship, I have an internship at Borey Golden Park company
+and this company created on 2020 by Mr. Teng houerng and Mrs. Lim Lang and for mission Borey Golden Park is To be one of the top property developers in Cambodia fulfill of sustainibility green comunity,
+and core value is Building high-quality, safe, and friendly house with a lalented team, commited to exceeding customer expectations.
+and for type of business is real states.
+
+The second is Internship Project:
+-first step is training my supervisor and IT manager, they teach me about the process of system to make that I can use system and know the flow of system to support client 
+-second step is testing after training they provide me to testing the project to finding mistack and error in the system and write document and prapare user guid for to teaching client 
+-third is learning they gove me to learn about the new programming languages is C# and learn about how to created class,type casting, declare function, connected with SQL server, and MVC process also.
+-four is Database Analysis: they give me to finding the table name with attribute, relationship, and connecting 
+-five is Start coding with boths of backend and frontend 
+-last one is testing the the features that's I already build to make sure that is working smootly

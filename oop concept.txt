@@ -1,0 +1,108 @@
+- Polymorphism real Example
+
+public class Student
+{
+    // Properties
+    public int student_id;
+    public string student_name;
+    public int student_age;
+    public string student_address;
+
+    // Constructor
+    public Student(int student_id, string student_name, int student_age, string student_address)
+    {
+        this.student_id = student_id;
+        this.student_name = student_name;
+        this.student_age = student_age;
+        this.student_address = student_address;
+    }
+    // Method to display student information
+    public void DisplayInfo()
+    {
+        Console.WriteLine($"Student ID: {student_id}, Name: {student_name}, Age: {student_age}, Address: {student_address}");
+    }
+}
+
+public class School : Student
+{
+    // Additional properties for School
+    public int school_id;
+    public string school_name;
+    public string school_address;
+
+    // Constructor for School
+    public School(int school_id, string school_name, string school_address, int student_id, string student_name, int student_age, string student_address)
+        : base(student_id, student_name, student_age, student_address)
+    {
+        this.school_id = school_id;
+        this.school_name = school_name;
+        this.school_address = school_address;
+    }
+
+    // Hide the base class method using "new"
+    public new void DisplayInfo()
+    {
+        base.DisplayInfo(); // Calls the base class method to display student info
+        Console.WriteLine($"School ID: {school_id}, School Name: {school_name}, School Address: {school_address}");
+    }
+}
+
+public class TestResult
+{
+    static void Main(string[] args)
+    {
+        // Create a Student object
+        Student s1 = new Student(1, "Soching", 21, "Phnom Penh");
+        s1.DisplayInfo(); // Calls the method from Student class
+
+        // Create a School object (derived class)
+        School s2 = new School(101, "Orddarmeanchey High School", "Phnom Penh", 2, "Jing", 22, "Siem Reap");
+        s2.DisplayInfo(); // Calls the method in School class
+    }
+}
+
+
+- Encapsulation real Example
+
+public class Student
+{
+    // Private fields
+    private int studentId;
+    private string studentName;
+
+    // Public properties
+    public int StudentId
+    {
+        get { return studentId; }
+        set { studentId = value; }
+    }
+
+    public string StudentName
+    {
+        get { return studentName; }
+        set { studentName = value; }
+    }
+
+    // Constructor
+    public Student(int id, string name)
+    {
+        StudentId = id;
+        StudentName = name;
+    }
+
+    // Method to display student info
+    public void DisplayInfo()
+    {
+        Console.WriteLine($"ID: {StudentId}, Name: {StudentName}");
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        // Create a Student object
+        Student student = new Student(1, "Soching");
+        student.DisplayInfo(); // Output: ID: 1, Name: Soching
+    }
+}

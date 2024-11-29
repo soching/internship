@@ -1,0 +1,18 @@
+1. first step run this command on below
+Scaffold-DbContext "Server=DESKTOP-067JFQA\MSSQLSERVER1;Database=products; user id = sa; pwd=123456789.;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Model -Context "MVC_06Context" -DataAnnotations
+
+
+
+
+Scaffold-DbContext "Server=lb;Database=testdb; user id = soching; pwd=123456789;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Model -Context "TestDbContext" -DataAnnotations
+
+
+2. second step create controller
+
+ApplicationDbContext
+
+
+
+
+
+Add-Migration AddAddressToStudent
